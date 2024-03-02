@@ -3,8 +3,22 @@ input.onButtonPressed(Button.A, function () {
     basic.showNumber(distance)
     if (folosesteV2 == 0) {
         folosesteV2 = 1
+        basic.showLeds(`
+            . # # # .
+            # # # # #
+            # . # # #
+            . # # # .
+            # # # # #
+            `)
     } else {
-        folosesteV2 = 1
+        folosesteV2 = 0
+        basic.showLeds(`
+            . . # # .
+            . # # # .
+            # # # # .
+            . . # # .
+            # # # # #
+            `)
     }
     apasatButon = 0
 })
