@@ -9,8 +9,8 @@ input.onButtonPressed(Button.B, function () {
         . . # . .
         . . # . .
         `)
-    Tinybit.CarCtrlSpeed(Tinybit.CarState.Car_Run, 95)
-    basic.pause(1000)
+    Tinybit.CarCtrlSpeed(Tinybit.CarState.Car_Run, 100)
+    basic.pause(200)
     Tinybit.CarCtrl(Tinybit.CarState.Car_Stop)
     basic.pause(2000)
     basic.showLeds(`
@@ -20,8 +20,8 @@ input.onButtonPressed(Button.B, function () {
         . # # # .
         . . # . .
         `)
-    Tinybit.CarCtrlSpeed(Tinybit.CarState.Car_Back, 6)
-    basic.pause(1000)
+    Tinybit.CarCtrlSpeed(Tinybit.CarState.Car_Back, 100)
+    basic.pause(200)
     Tinybit.CarCtrl(Tinybit.CarState.Car_Stop)
     basic.pause(2000)
     basic.showLeds(`
@@ -32,7 +32,7 @@ input.onButtonPressed(Button.B, function () {
         . . # . .
         `)
     Tinybit.CarCtrl(Tinybit.CarState.Car_Left)
-    basic.pause(1000)
+    basic.pause(100)
     Tinybit.CarCtrl(Tinybit.CarState.Car_Stop)
     basic.pause(2000)
     basic.showLeds(`
@@ -43,7 +43,7 @@ input.onButtonPressed(Button.B, function () {
         . . # . .
         `)
     Tinybit.CarCtrl(Tinybit.CarState.Car_Right)
-    basic.pause(1000)
+    basic.pause(100)
     Tinybit.CarCtrl(Tinybit.CarState.Car_Stop)
     basic.pause(2000)
     basic.showLeds(`
